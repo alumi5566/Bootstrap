@@ -1,0 +1,304 @@
+/*!
+ * Bootstrap v2.3.2
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+    @font-face{
+    	font-family: OPENSAN;
+    	src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+    }
+    @font-face{
+    	font-family: OPENSAN_light;
+    	src: url(../fonts/Open_Sans/OpenSans-Light.ttf);
+    }
+    @font-face{
+    	font-family: OPENSAN_bold;
+    	src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+    }
+    @font-face{
+    	font-family: georgia;
+    	src: url(../fonts/georgia/georgia_bold_italic.ttf);
+    }
+    
+    a{
+    	font-family: OPENSAN;
+    }
+    
+    html,
+    body {
+        height: 100%;
+        padding-top: 15px;
+        font-family: OPENSAN;
+        /* The html and body elements cannot have any padding or margin. */
+    }
+    
+    /* Wrapper for page content to push down footer */
+    #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+    }
+    
+    /* Set the fixed height of the footer here */
+    #push,
+    #footer {
+        height: 60px;
+  		bottom: 0px;
+  		width: 100%;
+  		margin-top:15px;
+    }
+    #footer {
+        background-color: #333333;
+    }
+    
+    /* Lastly, apply responsive CSS fixes as necessary */
+    @media (max-width: 767px) {
+        #footer {
+            margin-left: -20px;
+            margin-right: -20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+    .row_mid {
+	    width: 1000px;
+	    height: 500px;
+  		margin-top:15px;
+  		margin-bottom:15px;
+	}
+	.divcss5{ 
+		width:1000px;
+		height:500px;
+		overflow:hidden;
+		text-align: center;
+		background: url(../images/image2.jpg);
+		z-index:-2;
+		background-repeat: no-repeat;
+    	background-size: cover;
+	} 
+	.divcss5_inner{
+
+		border: solid rgba(20%,20%,20%,0.6);
+		border-style:solid;
+		border-width:20px; 
+		
+	  	position: relative;
+  		top: 0px;
+  		left: 500px;
+
+		width:500px;
+		height:500px;
+		
+		text-align: center;
+		z-index:0;
+		background-color: transparent;
+		
+	}
+	.divcss5_inner2{	
+	  	position: relative;
+  		top: -15px;
+  		left: 5px;
+		width:450px;
+		height:450px;
+		text-align: center;
+		background-color: rgba(20%,20%,20%,0.6);
+	}
+	#inn3{ 
+	  h1 {
+		position: relative;
+  		top: 0px;
+  		left: 50px;
+		font-size:57px;
+		text-align: left;
+		vertical-align: middle;
+		color: white;
+	}
+	  h11 {
+		font-family:georgia;
+		position: relative;
+  		top: 0px;
+  		left: 0px;
+		font-size:37px;
+		text-align: left;
+		vertical-align: middle;
+		color: white;
+	}
+	  h11:hover{
+		font-family:georgia;
+		font-size:37px;
+		text-align: left;
+		vertical-align: middle;
+		color: rgba(20%,20%,20%,0.9);
+	}
+	}
+	
+    .divcss6{ 
+		width:1000px;
+	} 
+
+	
+    /* Custom page CSS
+     -------------------------------------------------- */
+    /* Not required for template or sticky footer method. */
+    
+    .container {
+        width: auto;
+        max-width: 1000px;
+    }
+    .container .credit {
+        margin: 10px;
+    }
+    
+    .row_mid{ 
+      .span_3_img1 {
+  		width: 310px;
+  		height: 500px;
+  		margin-left:0px;
+  		background: url(../images/image3.jpg);
+  		z-index:-2;
+		background-repeat: no-repeat;
+    	background-size: cover;
+	}
+      .span_3_img2 {
+  		width: 310px;
+  		height: 500px;
+  		margin-left:35px;
+  		background: url(../images/image4.jpg);
+  		z-index:-2;
+		background-repeat: no-repeat;
+    	background-size: cover;
+	}
+	  .span_3_img3 {
+  		width: 310px;
+  		height: 500px;
+  		background: url(../images/image5.jpg);
+  		margin-left:35px;
+  		z-index:-2;
+		background-repeat: no-repeat;
+    	background-size: cover;
+	  }
+	}
+
+	#span3img h1{
+		font-family:georgia;
+		font-size:28px;
+		margin-left: 30px;
+		margin-top: 400px;
+		color: white;
+	}
+	
+	#responsive-image {
+		margin: 0px;
+		width: 100%; height:700px;
+	} 
+
+	.mainROW{
+	
+	}
+	
+	.st {
+	color: white;
+ 	background: url(../images/image1.jpg) ;
+	width: 100%;
+	height:700px;
+	background-size: 100% auto;
+ 	overflow: auto;
+ 	margin: 0;
+ 	text-align: justify;
+ 	border:1px solid rgb(60%,60%,60%);
+ 	border-right:none;
+	}
+
+	#st1 .row_mid {
+		width: 100%;
+		height: 25px;
+  		position: relative;
+  		top: 5px;
+		background-color: rgba(80%,80%,80%,0.7);
+	}
+
+	.row_mid{ 
+	  .ann_context {
+		width: 90%;
+	  	position: relative;
+  		right: 10px;
+	  	text-align: center;
+  		color: gray;
+  		float:left;
+	  }
+	  .ann_x {
+		width: 10%;
+		position: relative;
+		right: 10px;
+		text-align: right;
+		color: gray;
+		float:right;
+	  }
+	}
+	
+	#st1{
+	  .inner {
+		border:solid #000;
+		border-width:1px;  
+  		position: relative;
+  		top: 100px;
+  		left: 120px;
+ 		width:400px;
+		height:400px;
+		background-color: none;
+		background-color: transparent;
+	  }
+	
+	  .inner1 {
+		border:solid #000;
+		border-style:double;
+		border-width:1px;  
+  		position: relative;
+  		top: 10px;
+  		left: 10px;
+ 		width:380px;
+		height:380px;
+		background: rgba(20%,20%,20%,0.8);
+	  }
+	  .inner2 {	
+  		position: relative;
+  		top: 0px;
+  		left: 20px;
+ 		width:330px;
+		height:80px;
+		border:2px solid #fff;
+	  }
+	  .inner2:hover{
+  		position: relative;
+  		top: 0px;
+  		left: 20px;
+ 		width:330px;
+		height:80px;
+		border:2px solid #fff;
+		background: rgba(50%,50%,50%,0.9);
+	  }
+      h1 {
+		font-family:OPENSAN_light;
+		font-size:58px;
+		margin-left: 30px;
+		margin-top: 20px;
+	  }
+	  h11 {
+		font-family:OPENSAN_bold;
+		font-size:58px;
+		margin-top: 20px;
+	  }
+	}
+	
+	#inn2 h2 {
+		font-size:27px;
+		text-align: center;
+		vertical-align: middle;
+		color: white;
+	}
